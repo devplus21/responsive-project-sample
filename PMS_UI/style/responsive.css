@@ -1,0 +1,287 @@
+@media only screen and (max-width: 420px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .font-scale.hard-content {
+    line-height: 3.2vw !important;
+    width: 100%;
+  }
+
+  .header-icon {
+    display: block !important;
+    margin: 0 7%;
+    font-size: 5vw;
+  }
+
+  .issues-top,
+  .issues-bottom {
+    flex-direction: column !important;
+  }
+
+  .connect-map-pc {
+    display: none;
+  }
+  .connect-map-mobile {
+    display: block !important;
+  }
+  .connect-right {
+    aspect-ratio: 1/1.2 !important;
+  }
+
+  .connect-map img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -16%);
+    height: 47% !important;
+  }
+  .font-heading {
+    font-size: 6.5vw !important;
+    text-align: center;
+  }
+  .font-scale {
+    font-size: 3.1vw !important;
+    line-height: 4vw !important;
+    width: 74% !important;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+  .navbar {
+    display: none !important;
+  }
+  .hardware::after {
+    background-image: url(../images/background-soft-mobile.png) !important;
+  }
+  .process-left {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .hardware-title {
+    width: 52% !important;
+  }
+  .content-mobile {
+    width: 67% !important;
+    margin: 2% auto !important;
+  }
+  br {
+    display: none !important;
+  }
+  .hard-pms img {
+    width: 85% !important;
+  }
+  .table-header,
+  .table-footer {
+    margin: 0 auto !important;
+    width: 70% !important;
+  }
+  .hard-wrap.second {
+    margin: 2% 0 !important;
+    padding: 0 0 3% !important;
+  }
+
+  .process-right {
+    width: 68% !important;
+    aspect-ratio: 1/1 !important;
+    justify-content: center !important;
+    padding-top: unset !important;
+  }
+
+  .footer-author {
+    margin-top: 2% !important;
+  }
+
+  .heading-secondary {
+    font-size: 5vw !important;
+    line-height: 7vw !important;
+  }
+  .content-shadow {
+    font-size: 3vw !important;
+    line-height: 3vw !important;
+  }
+  .title-shadow {
+    width: 64% !important;
+  }
+  .table {
+    width: 100% !important;
+  }
+
+  .img-system {
+    width: 90% !important;
+  }
+
+  .service-list li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-connect {
+    flex-direction: column;
+  }
+  .issues-top li,
+  .issues-bottom li {
+    width: 100%;
+  }
+  .process-left,
+  .process-right {
+    width: 100%;
+  }
+  .service-list li {
+    width: 100% !important;
+  }
+  .footer-connect {
+    width: 100% !important;
+  }
+  .footer-logo {
+    width: 36% !important;
+    aspect-ratio: 1/0.6 !important;
+    background-position: 600% 60% !important;
+  }
+  .footer-socials {
+    margin-top: unset !important;
+    padding: 2% 0 !important;
+  }
+
+  .connect-left {
+    width: 100% !important;
+  }
+  .connect-right {
+    width: 100% !important;
+  }
+  .banner-wrap {
+    aspect-ratio: 1/2.2 !important;
+    justify-content: start !important;
+    padding-top: 7%;
+    padding-left: 5%;
+  }
+  .hard-font {
+    font-size: 4.3vw !important;
+  }
+  .scroll {
+    width: 7% !important;
+  }
+  .process-left img {
+    max-width: 84% !important;
+    margin-top: -5% !important;
+  }
+  .banner-more {
+    align-items: center !important;
+    width: 100% !important;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+  }
+  .banner-more-top img {
+    display: none;
+  }
+  .banner-content {
+    font-size: 3vw !important;
+    line-height: 4.5vw !important;
+    width: 199% !important;
+    margin: 3% 0;
+  }
+  .scrolling {
+    width: 13% !important;
+    margin: 5% 0 !important;
+  }
+  .banner-wrap::after {
+    background-size: 117% !important;
+    background-position: 43% 65% !important;
+    top: 8% !important;
+    left: -32% !important;
+    width: 236% !important;
+  }
+  .connect {
+    position: relative;
+  }
+  .intro-img {
+    max-width: 92% !important;
+  }
+
+  .intro-video {
+    max-width: 90% !important;
+  }
+  .process {
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .connect-wrap {
+    flex-direction: column;
+  }
+  .video {
+    transform: translate(-50%, -38%) !important;
+    max-width: 93% !important;
+  }
+
+  .solution-process {
+    aspect-ratio: 1/0.76 !important;
+    background-image: url(../images/process-mobile.svg) !important;
+  }
+  .intro-item:first-child,
+  .intro-item:last-child {
+    display: none;
+  }
+  .intro-video {
+    background-image: url(../images/video-mobile.png) !important;
+    aspect-ratio: 1/0.66666 !important;
+  }
+
+  .line {
+    display: none;
+  }
+  .product,
+  .experience {
+    font-size: 2.2vw !important;
+  }
+  .connect-left form input {
+    font-size: 3vw !important;
+  }
+
+  .issues-top p,
+  .issues-bottom p {
+    font-weight: 400;
+    font-size: 3.5vw !important;
+    line-height: 5vw !important;
+  }
+  .intro-pc {
+    display: none;
+  }
+  .content-primary {
+    line-height: 5vw !important;
+  }
+  .issues-img {
+    width: 27% !important;
+  }
+  .service-list {
+    flex-direction: column;
+    /* margin-bottom: unset; */
+  }
+
+  .service-tech {
+    transform: unset !important;
+    position: unset !important;
+    width: unset !important;
+    aspect-ratio: 1/0.6 !important;
+    background-image: url(../images/moblle-tech.svg) !important;
+    background-size: 124% !important;
+    background-position: 84% !important;
+    margin-top: -12% !important;
+  }
+}
+@media only screen and (min-width: 1160px) {
+  .logo-content {
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+  .logo-img {
+    background-size: 177% !important;
+    background-position: 74% 68% !important;
+  }
+
+  .menu-item a,
+  .service {
+    font-size: 14px !important;
+    line-height: 14px !important;
+  }
+}

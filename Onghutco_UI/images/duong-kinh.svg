@@ -1,0 +1,13 @@
+<svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="71" cy="71" r="71" fill="#72A75F"/>
+<circle cx="70.5" cy="71.5" r="65.5" fill="url(#paint0_angular_1_124)"/>
+<line x1="70.5" y1="6" x2="70.5" y2="137" stroke="black"/>
+<line x1="73" y1="136.5" x2="68" y2="136.5" stroke="black"/>
+<path d="M73 6.5L68 6.5" stroke="black"/>
+<defs>
+<radialGradient id="paint0_angular_1_124" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70.5 71.5) rotate(90) scale(65.5)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#9E9E9E"/>
+</radialGradient>
+</defs>
+</svg>

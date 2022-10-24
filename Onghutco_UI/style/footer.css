@@ -1,0 +1,162 @@
+.footer {
+  position: relative;
+  width: 100%;
+  line-height: 1.6;
+  height: 810px;
+  flex-shrink: 0;
+  bottom: 0;
+}
+
+.footer .footer-img {
+  position: absolute;
+  margin: auto;
+  width: 105%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer .footer-img-mobile {
+  display: none;
+}
+
+.footer-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  background: #f2f2f2;
+  display: flex;
+  padding: 30px 0px 8px 49px;
+  width: 100%;
+  max-width: 1178px;
+  margin: 0 auto;
+}
+.footer-wrap .connect {
+  margin-right: 10px;
+}
+.connect .title,
+.info .title,
+.address .title {
+  color: #219653;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: Teko, sans-serif;
+}
+.info img {
+  margin-top: 8px;
+}
+
+.info .footer-info .infor-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #bbf0d1;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.info .footer-info .infor-container img {
+  width: 192px;
+  height: 31px;
+}
+.address-footer .address-container img {
+  width: 397px;
+  height: 52px;
+}
+
+.connect .content,
+.info .content p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #4f4f4f;
+}
+
+.connect .content .dated {
+  color: #219653;
+}
+
+.address .address-icon ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 37px 0;
+  align-items: center;
+}
+
+.address {
+  width: 376px;
+  max-width: 100%;
+}
+/* .main-container .address-container img {
+  display: none;
+} */
+
+@media only screen and (max-width: 1023px) {
+  /* header */
+
+  .info img {
+    display: none;
+  }
+  .connect-container {
+    margin-top: 26px;
+  }
+
+  .footer-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 4%);
+    background: #f2f2f2;
+    display: block;
+    padding: 18px 18px 0 18px;
+    width: 93%;
+  }
+
+  .address-footer .address-container img {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .connect .content,
+  .info .content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 26px;
+    color: #4f4f4f;
+  }
+
+  .address .address-icon ul {
+    justify-content: space-evenly;
+    margin: 5px 0;
+  }
+  .footer .footer-img {
+    display: none;
+  }
+  .footer .footer-img-mobile {
+    display: block;
+    width: 121%;
+  }
+  .address-footer .address-container img {
+    /* display: none; */
+  }
+
+  .connect .title,
+  .info .title,
+  .address .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer {
+    height: auto;
+  }
+}

@@ -1,0 +1,31 @@
+/* Tablet & Mobile*/
+
+@media only screen and (max-width: 1023px) {
+  .banner {
+    margin: auto;
+  }
+  .carousel-list .carousel-item .carousel1,
+  .carousel-list .carousel-item .carousel3 {
+    display: none;
+  }
+
+  .connect-about {
+    display: initial;
+    position: relative;
+    top: 80px;
+    z-index: 3;
+  }
+
+  .connect-left {
+    margin-bottom: 26px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .info .footer-info .infor-container {
+    display: none;
+  }
+  /* table */
+  .table {
+    display: none;
+  }
+}

@@ -1,0 +1,182 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .steps .bottom-right {
+    display: none;
+  }
+
+  .retail-right .info-img,
+  .retail-right .info-img-size {
+    width: 100%;
+    max-width: 419px;
+  }
+
+  .step-mobile li {
+    margin-bottom: 50px;
+  }
+
+  .steps .bottom-left {
+    position: relative;
+    width: 101%;
+    max-width: 300px;
+  }
+
+  .info-amount {
+    margin-right: 20px;
+  }
+
+  .info-amount .amount {
+    width: 195px;
+  }
+
+  /* carousel */
+
+  .carousel p {
+    width: 374px;
+    margin: 260px auto 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  .carousel-list {
+    display: flex;
+    width: 1161px;
+    justify-content: space-between;
+  }
+  .carousel-list .carousel-item .carousel1,
+  .carousel-list .carousel-item .carousel3 {
+    display: none;
+  }
+
+  .carousel-item.active {
+    position: absolute;
+    width: 425px;
+    height: 263px;
+    left: calc(50% - 425px / 2);
+    top: 5803px;
+  }
+
+  .carousel-item.active img {
+    margin: 28px 47px;
+    width: 330px;
+  }
+  .main-container .slogan P {
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0;
+
+    color: #219653;
+  }
+  .main-container .slogan P.trademark {
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0;
+
+    color: #000000;
+  }
+
+  .register-wrap button {
+    color: #ffffff;
+    background: #219653;
+  }
+  .steps-title.certificate-title {
+    margin-bottom: 30px;
+    margin-left: 22px;
+  }
+
+  .banner-title .title-intro h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+
+  .banner-title h5 {
+    position: absolute;
+    left: -26px;
+    top: 244px;
+    font-size: 20px;
+  }
+
+  .connect-about {
+    display: initial;
+    position: relative;
+    top: 80px;
+
+    z-index: 3;
+  }
+  .connect-right .form-input {
+    max-width: 100%;
+  }
+
+  .banner-img-big,
+  .banner-img-small {
+    display: none;
+  }
+
+  .carousel-bottom {
+    position: relative;
+    top: 65px;
+    left: 44px;
+    border-bottom: 1px solid #333333;
+    width: 337px;
+  }
+
+  .main-container button {
+    width: 156px;
+  }
+  .info-box button {
+    width: 45px;
+  }
+
+  .main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .section-container {
+    width: 873px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo-img {
+    background-image: url('../images/logo.png');
+  }
+
+  .connect-right {
+    margin-top: 20px;
+  }
+
+  /* mua si */
+
+  .steps ul {
+    width: 100%;
+    max-width: 100px;
+
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  /* connect */
+
+  .info-box p {
+    width: 150px;
+  }
+
+  .connect-container img {
+    width: 68%;
+    position: relative;
+    top: 95px;
+    left: 23px;
+  }
+  .connect-container h3 {
+    position: relative;
+    top: 57px;
+    left: 44px;
+  }
+
+  .address .address-icon ul {
+    justify-content: space-evenly;
+  }
+}
